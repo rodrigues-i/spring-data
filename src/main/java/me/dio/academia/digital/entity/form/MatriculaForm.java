@@ -11,8 +11,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class MatriculaForm {
-	@NotNull(message = "Preencha o campo corretamente")
-	@Positive(message = "O id do aluno precisa ser positivo")
+	//@NotNull(message = "Preencha o campo corretamente")
+	//@Positive(message = "O id do aluno precisa ser positivo")
 	private Long alunoId;
 
 }
